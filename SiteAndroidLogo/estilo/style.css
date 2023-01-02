@@ -24,7 +24,6 @@
 *{
     margin: 0px;
     padding: 0px;
-    transition-duration: 1.5s;
 }
 
 body {
@@ -80,7 +79,7 @@ nav > a {
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
-    transition-duration: 1s;
+    transition-duration: .5s;
 }
 
 nav > a:hover{
