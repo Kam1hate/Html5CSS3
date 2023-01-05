@@ -7,16 +7,25 @@
     <title>Teste de Imagem de Fundo</title>
     <style>
         body {
-            height: 100vh;
+            /*height: 100vh;
             background-image: url(Imagens/wallpaper002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
             background-color: rgb(94, 94, 141);
             background-size: cover;
+            background-attachment: fixed;*/
+
+            /* Shorthand - background
+               color > imagem > position > repeat > size > attachment
+               o size nao é aplicavel por enquanto, entao deve ser feito separado.
+               o manual fala que é para aceitar o size.
+            */
+            background: black url(Imagens/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover;
         }
         main {
             background-color: white;
-            width: 400px;
+            max-width: 500px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -27,6 +36,16 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem vel est vitae? Voluptate dignissimos similique reprehenderit voluptates blanditiis obcaecati ratione quam fuga amet molestias iste eligendi, ab quibusdam consequuntur eius.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem vel est vitae? Voluptate dignissimos similique reprehenderit voluptates blanditiis obcaecati ratione quam fuga amet molestias iste eligendi, ab quibusdam consequuntur eius.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem vel est vitae? Voluptate dignissimos similique reprehenderit voluptates blanditiis obcaecati ratione quam fuga amet molestias iste eligendi, ab quibusdam consequuntur eius.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem vel est vitae? Voluptate dignissimos similique reprehenderit voluptates blanditiis obcaecati ratione quam fuga amet molestias iste eligendi, ab quibusdam consequuntur eius.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem vel est vitae? Voluptate dignissimos similique reprehenderit voluptates blanditiis obcaecati ratione quam fuga amet molestias iste eligendi, ab quibusdam consequuntur eius.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem vel est vitae? Voluptate dignissimos similique reprehenderit voluptates blanditiis obcaecati ratione quam fuga amet molestias iste eligendi, ab quibusdam consequuntur eius.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem vel est vitae? Voluptate dignissimos similique reprehenderit voluptates blanditiis obcaecati ratione quam fuga amet molestias iste eligendi, ab quibusdam consequuntur eius.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem vel est vitae? Voluptate dignissimos similique reprehenderit voluptates blanditiis obcaecati ratione quam fuga amet molestias iste eligendi, ab quibusdam consequuntur eius.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem vel est vitae? Voluptate dignissimos similique reprehenderit voluptates blanditiis obcaecati ratione quam fuga amet molestias iste eligendi, ab quibusdam consequuntur eius.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem vel est vitae? Voluptate dignissimos similique reprehenderit voluptates blanditiis obcaecati ratione quam fuga amet molestias iste eligendi, ab quibusdam consequuntur eius.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem vel est vitae? Voluptate dignissimos similique reprehenderit voluptates blanditiis obcaecati ratione quam fuga amet molestias iste eligendi, ab quibusdam consequuntur eius.</p>
     </main>
     
