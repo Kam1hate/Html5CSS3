@@ -1,7 +1,17 @@
 @charset "UTF-8";
-{
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root {
+    --font1: Verdana, Geneva,Tahoma, sans-serif;
+    --font2: 'Sriracha', cursive;
+    --font3: 'Passion One', cursive;
+}
+
+*{
     margin: 0px;
     padding: 0px;
+    font-family: var(--font1);
 }
 
 html,body {
@@ -13,15 +23,12 @@ header {
     color: white;
     min-height: 300px;
     text-align: center;
-    text-transform: uppercase;
     margin: auto;
+    margin-top: 50px;
     text-shadow: 4px 4px 4px black;
 }
 
 body {
-    margin: 0px;
-    margin-top: auto;
-    padding-left: 10px;
     height: 0px;
 }
 
@@ -52,10 +59,59 @@ body {
 .banner .content h1 {
     font-size: 3.5em;
     border: auto;
+    text-transform: uppercase;
+    font-family: var(--font3);
+}
+
+.banner .content p {
+    font-size: 1.5em;    
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+.banner .content a, footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: blue;
 }
 
 .audio {
     position: fixed;
     right: 0;
     bottom: 5%;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--font2);
+    font-size: 1.5em;
+}
+
+section.padrao {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: black;
+    color: white;
+}
+
+section.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
 }
