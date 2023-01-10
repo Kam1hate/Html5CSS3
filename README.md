@@ -1,5 +1,5 @@
 # Html5CSS3
- Exucute os sites:
+ Execute os sites:
  
 <a href="https://kam1hate.github.io/Html5CSS3/SiteAndroidLogo/android.html">Curiosidades de Tecnologia</a>
 
