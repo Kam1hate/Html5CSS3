@@ -11,12 +11,6 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: var(--font1);
-}
-
-html,body {
-
-    background-color: darkgray;
 }
 
 header {
@@ -53,12 +47,10 @@ body {
 .banner .content {
     position: relative;
     z-index: auto;
-    text-align: center;
 }
 
 .banner .content h1 {
     font-size: 3.5em;
-    border: auto;
     text-transform: uppercase;
     font-family: var(--font3);
 }
@@ -92,7 +84,8 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--font2);
-    font-size: 1.5em;
+    font-size: 3vw;
+    text-align: center;
 }
 
 section.padrao {
@@ -103,11 +96,29 @@ section.padrao {
 section.imagem {
     background-color: black;
     color: white;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section > p {
+    padding-bottom: 4vh;
 }
 
 section.imagem > p {
-    width: 400px;
+    display: inline-block;
+    padding: 20px;
     background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+section#img1{
+    background-image: url(../media/background001.jpg);
+    background-position: right center;
+}
+
+section#img2{
+    background-image: url(../media/background002.jpg);
+    background-position: right center;
 }
 
 footer {
